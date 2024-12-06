@@ -30,4 +30,5 @@ function sentenceProcessor(sentence) {
 
   return `This sentence is ${count} characters long !! And It exactly has ${words} words and ${vowelsCount} vowels`;
 }
+sentenceProcessor();
 // Sentence must be in lowercase for javascript to find all vowels
